@@ -16,5 +16,5 @@ do
         SUMBYTE=`expr $SUM / 1024`
         #echo "tx $1: $TKBPS kb/s rx $1: $RKBPS kb/s"
 	echo "$SUMBYTE" > speedump.txt 
-	#python networkblinker.py &
+	python networkblinker.py &
 done
